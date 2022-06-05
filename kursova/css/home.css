@@ -1,0 +1,98 @@
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/books.webp");
+    height: 600px;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    margin: 0;
+    font-size: 7rem;
+    font-family: Tahoma;
+}
+.about{
+    height: 300px;
+    display: flex;
+    background: yellow;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0;
+}
+.about h2{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+.about p {
+    font-size: 1.5rem;
+    max-width: 540px;
+}
+.about a{
+    background: black;
+    text-decoration: none;
+    color: white;
+    padding: 14px 50px;
+    font-size: 1.5rem;
+    transition: 0.3s ease;
+}
+.about a:hover{
+    box-shadow: 0px 0px 10px black;
+    transform: scale(1.01);
+}
+.gallery{
+    padding: 100px 0;
+}
+.gallery_images{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.gallery h2{
+    font-size: 4rem;
+}
+.card{
+    width: 20rem;
+    border: 1px solid rgba(128, 128, 128, 0.819);
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.307);
+    transition: 0.5s ease;
+    margin:20px 0;
+}
+.card:hover{
+    transform: scale(1.01);
+}
+.card_image{
+    display: flex;
+    justify-content: center;
+}
+.card_image img{
+    max-width: 90%;
+    height: 180px;
+}
+.card_header{
+    text-align: center;
+    font-size: 1.8rem;
+}
+.card_button{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+    padding: 10px 0;
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+    font-size: 1.2rem;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.card_button:hover{
+    background: black;
+    color: white;
+}
